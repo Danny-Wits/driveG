@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DriveG</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="gameContainer">
+      <div class="input canvas" id="inputL"></div>
+      <canvas class="track canvas" id="track"></canvas>
+      <div class="input canvas" id="inputR">
+        <p>
+          PRESS <b>W</b> TO ACCELERATE <br />
+          PRESS <b>S</b> TO BRAKE <br />
+          PRESS <b>SHIFT</b> TO CLUTCH<br />
+          PRESS <b>Q</b> TO GEAR DOWN<br />
+          PRESS <b>E</b> TO GEAR UP
+        </p>
+      </div>
+    </div>
+    <script src="scripts/game.js"></script>
+  </body>
 </html>
