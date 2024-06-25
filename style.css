@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   font-family: monospace;
-  font-size: 28px;
+  font-size: large;
 }
 .gameContainer {
   background-color: var(--light-color);
